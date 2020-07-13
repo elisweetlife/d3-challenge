@@ -154,8 +154,11 @@ yText
 // by the Behavioral Risk Factor Surveillance System.
 
 // Import our CSV data with d3's .csv import method.
-d3.csv("assets/data/data.csv").then(function(data) {
-//d3.csv("../data/data.csv").then(function(data) {
+d3.csv("data.csv").then(function(data){
+//d3.csv("/Users/eli/Desktop/d3-challenge/D3_data_journalism/assets/js/data.csv").then(function(data) {
+//d3.csv("/Users/eli/Desktop/d3-challenge/D3_data_journalism/assets/data/data2.csv", function(data) { (d3 v4 style)
+//d3.csv("data/data2.csv", function(data) {
+  //console.log(data)
   // Visualize the data
   visualize(data);
 });
